@@ -1,5 +1,5 @@
 // config/db.js
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 // mongodb+srv://saikiran3916:TES4l328juZZffAZ@practice-mongodb.zr0usdj.mongodb.net/?retryWrites=true&w=majority&appName=practice-MongoDB
 const connectDB = async () => {
   try {
@@ -16,4 +16,4 @@ const connectDB = async () => {
   }
 };
 
-module.exports = connectDB;
+export default connectDB;

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Paytm clone (Learning of transactions behaviour)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -19,8 +20,10 @@
   },
   "homepage": "https://github.com/sai-kiran77/paytm#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.0"
   }
 }
